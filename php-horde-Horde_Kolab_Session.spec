@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc ChangeLog install.log
 %doc optional-packages.txt
 %{php_pear_dir}/.registry/.channel.*/*.reg
-%dir %{php_pear_dir}/Horde/Kolab
 %{php_pear_dir}/Horde/Kolab/Session.php
 %{php_pear_dir}/Horde/Kolab/Session
