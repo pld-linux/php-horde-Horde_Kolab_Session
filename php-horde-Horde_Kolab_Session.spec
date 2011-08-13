@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - A package managing an active Kolab session
 Name:		php-horde-Horde_Kolab_Session
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	9d996ac76c0497515a0dc6c105f8e39c
+# Source0-md5:	39d7c20ed719f5cd3640c5c8b6bf7f85
 URL:		https://github.com/horde/horde/tree/master/framework/Kolab_Session/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
@@ -17,8 +17,9 @@ BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.610
 Requires:	php-channel(pear.horde.org)
 Requires:	php-horde-Horde_Exception < 2.0.0
-Requires:	php-horde-Horde_Kolab_Server < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
+Suggests:	php-horde-Horde_Imap_Client
+Suggests:	php-horde-Horde_Kolab_Server
 Suggests:	php-horde-Horde_Log
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
