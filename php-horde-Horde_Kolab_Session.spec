@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Kolab_Session
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - A package managing an active Kolab session
 Name:		php-horde-Horde_Kolab_Session
 Version:	1.1.1
