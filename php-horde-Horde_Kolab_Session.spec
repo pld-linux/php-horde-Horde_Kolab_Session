@@ -3,7 +3,7 @@
 Summary:	%{pearname} - A package managing an active Kolab session
 Name:		php-horde-Horde_Kolab_Session
 Version:	1.1.1
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
